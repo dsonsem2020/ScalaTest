@@ -5,6 +5,7 @@ pipeline {
             steps {
                 scalac Hello.scala
                 scala Hello
+                echo "it ran"
             }
         }
     }
